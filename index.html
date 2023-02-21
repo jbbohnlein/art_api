@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,=">
+    <link rel="stylesheet" href="/main.css">
+    <script src="/main.js" defer></script>
+    <title>Art Gallery API Project</title>
+</head>
+<body>
+<section class="main_tile">
+    <div>
+        <img src="/images/shutterstock_72545329.jpg" alt="Museum Backdrop" class="background">
+    </div>
+    <!-- <h1 class="header">Art Gallery</h1> -->
+</section>
+<div class="container">   
+    <div class="gallery">
+        <figure class="gallery_item gallery_item-1" id="27943" onclick="event.stopPropagation(); getArtworkDetails(this.id, event)">
+            <img src="/images/1926.198 - Mahana no atua (Day of the God).jpg" alt="Mahana no atua by Paul Gauguin" class="gallery-img">
+            <h4 id="0"></h4>
+        </figure>
+
+        
+        <figure class="gallery_item gallery_item-2" id="109819" onclick="event.stopPropagation(); getArtworkDetails(this.id, event)">
+            <img src="/images/1957.307 - Lozenge Composition with Yellow, Black, Blue, Red,....jpg" alt="Lozenge with \r
+            Yellow, Black, Blue, Red, and Gray by Piet Mondrian" class="gallery-img">
+            <h4 id="1"></h4>
+        </figure>
+        
+        <figure class="gallery_item gallery_item-3" id="24645" onclick="event.stopPropagation(); getArtworkDetails(this.id, event)">
+            <img src="/images/1925.3245 - Under the Wave off Kanagawa (Kanagawa oki nami....jpg" alt="The Great Wave by Katsushika Hokusai" class="gallery-img">
+            <h4 id="2"></h4>
+        </figure>
+        
+        <figure class="gallery_item gallery_item-4" id="28560" onclick="event.stopPropagation(); getArtworkDetails(this.id, event)">
+            <img src="/images/1926.417 - The Bedroom.jpg" alt="The Bedroom by Vincent Van Gogh" class="gallery-img">
+            <h4 id="3"></h4>
+        </figure>
+        
+        <figure class="gallery_item gallery_item-5" id="76395" onclick="event.stopPropagation(); getArtworkDetails(this.id, event)">
+            <img src="/images/1990.165 - Flower Clouds.jpg" alt="Flower Clouds by Odilon Redon" class="gallery-img">
+            <h4 id="4"></h4>
+        </figure>
+        <figure class="gallery_item gallery_item-6" id="14556" onclick="event.stopPropagation(); getArtworkDetails(this.id, event)">
+            <img src="/images/1933.422 - Auvers, Panoramic View.jpg" alt="Auvers by Paul Cezanne" class="gallery-img">
+            <h4 id="5"></h4>
+        </figure>
+    </div>
+</div> 
+</body>
+</html>
+

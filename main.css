@@ -1,0 +1,68 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    /* font-size: ; */
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', \r
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -50px;
+}
+
+/* .header{
+    z-index: 1;
+    height: 14em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3em;
+} */
+
+/* Styles for movie posters */
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 2rem auto;
+    padding-top: 8%;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 325px 325px 325px;
+    grid-gap: 2rem;
+    width: 100%;
+    justify-content: space-around;
+
+    /* padding-top: 20px; */
+}
+
+.gallery_item{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    object-fit: contain;
+    justify-content: center;
+    align-content: center;
+}
+
+.gallery-img{
+    object-fit: contain;
+    width: 275px;
+    height: auto;
+    align-items: baseline;
+    margin: 15px;
+    margin-bottom: 30px;
+}
